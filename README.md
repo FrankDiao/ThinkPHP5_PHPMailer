@@ -36,3 +36,16 @@ www  WEB部署目录
         'password'    => 'yingyuedushu1234',//发送邮件的邮箱密码（部分邮箱为授权码）
     ];
 ```
+SMTP服务开启方式参考此链接（以163邮箱为例）[163邮箱如何开启POP3/SMTP/IMAP服务？](http://help.163.com/10/0312/13/61J0LI3200752CLQ.html)
+
+
+## 发送邮件 
+```
+请求地址： /index.php/api/Users/sendMail
+请求方式： POST/GET
+```
+ 
+ |参数|类型|说明|
+ |---|:--:|---:|
+ |内容|内容|内容|
+ |内容|内容|内容|
