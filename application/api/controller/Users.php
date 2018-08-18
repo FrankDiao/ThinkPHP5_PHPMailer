@@ -9,10 +9,8 @@
 
 namespace app\api\controller;
 
-use app\api\logic\Users as logic;
 use app\common\controller\SendEmail;
 use think\Controller;
-use think\Db;
 use think\Validate;
 
 class Users extends Controller
