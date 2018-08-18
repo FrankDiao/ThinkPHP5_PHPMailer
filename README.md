@@ -32,8 +32,8 @@ www  WEB部署目录
     //邮箱配置
     private $mail = [
         'host'        => 'smtp.163.com',//SMTP服务器地址
-        'send_email'  => 'yingyuedushu@163.com',//发送邮件的邮箱账号
-        'password'    => 'yingyuedushu1234',//发送邮件的邮箱密码（部分邮箱为授权码）
+        'send_email'  => 'xxx@163.com',//发送邮件的邮箱账号
+        'password'    => 'xxx',//发送邮件的邮箱密码（部分邮箱为授权码）
     ];
 ```
 SMTP服务开启方式参考此链接（以163邮箱为例）[163邮箱如何开启POP3/SMTP/IMAP服务？](http://help.163.com/10/0312/13/61J0LI3200752CLQ.html)
