@@ -44,8 +44,8 @@ class SendEmail extends Controller
      */
     public function sendMail($host, $send_email, $pwd, $to, $title, $content, $file){
         //实例化PHPMailer核心类
-        Loader::import('PHPMaileer.src.PHPMailer',EXTEND_PATH,'.php');
-        Loader::import('PHPMaileer.src.SMTP',EXTEND_PATH,'.php');
+        Loader::import('PHPMailer.src.PHPMailer',EXTEND_PATH,'.php');
+        Loader::import('PHPMailer.src.SMTP',EXTEND_PATH,'.php');
         $mail = new \PHPMailer();
 
         //是否启用smtp的debug进行调试 开发环境建议开启  默认为关闭
