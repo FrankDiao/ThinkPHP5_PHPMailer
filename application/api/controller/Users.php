@@ -20,8 +20,8 @@ class Users extends Controller
     //邮箱配置
     private $mail = [
         'host'        => 'smtp.163.com',//SMTP服务器地址
-        'send_email'  => 'yingyuedushu@163.com',//发送邮件的邮箱账号
-        'password'    => 'yingyuedushu1234',//发送邮件的邮箱密码（部分邮箱为授权码）
+        'send_email'  => 'xxx@163.com',//发送邮件的邮箱账号
+        'password'    => 'xxx',//发送邮件的邮箱密码（部分邮箱为授权码）
     ];
 
     public function sendMail(){
