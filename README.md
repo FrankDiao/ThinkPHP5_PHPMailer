@@ -2,7 +2,7 @@ ThinkPHP5集成PHPMailer库发送邮件
 ===============
 # 验证码示例说明
 
-## 目录说明
+## 1. 目录说明
 ~~~
 www  WEB部署目录
 ├─application           应用目录
@@ -27,7 +27,7 @@ www  WEB部署目录
 
 ~~~
 
-## 配置说明
+## 2. 配置说明
 将 api模块下的 Users控制器的 mail成员变量配置为自己的邮箱信息；
 ```
     //邮箱配置
@@ -40,7 +40,7 @@ www  WEB部署目录
 SMTP服务开启方式参考此链接（以163邮箱为例）[163邮箱如何开启POP3/SMTP/IMAP服务？](http://help.163.com/10/0312/13/61J0LI3200752CLQ.html)
 
 
-## 发送邮件 
+## 3. 发送邮件 
 ```
 请求地址： /index.php/api/Users/sendMail
 请求方式： POST/GET
