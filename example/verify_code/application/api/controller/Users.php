@@ -32,7 +32,7 @@ class Users extends Controller
         }
 
         //生成验证码
-        $code = rand(1000,9999);
+        $code = rand(10000,99999);
 
         //发送邮件
         $SendMail = new SendEmail();
