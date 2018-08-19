@@ -44,9 +44,9 @@ class Users extends Controller
         $r = $SendMail->send($data['email'],$this->mail,'验证码',$html);
 
         if ($r){
-            return result(200,'验证码已发送',['code'=>$code]);
+            return result(200,'SUCCESS',['code'=>$code]);
         }
 
-        return result(400,'发送失败');
+        return result(400,'ERROR');
     }
 }
