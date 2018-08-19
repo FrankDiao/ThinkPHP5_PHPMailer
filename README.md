@@ -1,5 +1,6 @@
-ThinkPHP5集成PHPMailer库发送邮件【附验证码示例】
+ThinkPHP5集成PHPMailer库发送邮件
 ===============
+# 验证码示例说明
 
 ## 目录说明
 ~~~
